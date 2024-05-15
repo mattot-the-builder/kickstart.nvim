@@ -67,3 +67,7 @@ vim.keymap.set('n', '<C-j>', '<cmd>cprev<CR>zz')
 -- vim.keymap.set('n', '<leader>s', [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- vim.keymap.set('n', '<leader>x', '<cmd>!chmod +x %<CR>', { silent = true })
 vim.keymap.set('n', '<leader>x', vim.cmd.bd, { desc = '[X] Close buffer' })
+
+-- Set tab to move between buffer
+vim.keymap.set('n', '<TAB>', '<cmd>bnext<CR>')
+vim.keymap.set('n', '<S-TAB>', '<cmd>bprevious<CR>')
