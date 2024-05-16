@@ -71,3 +71,5 @@ vim.keymap.set('n', '<leader>x', vim.cmd.bd, { desc = '[X] Close buffer' })
 -- Set tab to move between buffer
 vim.keymap.set('n', '<TAB>', '<cmd>bnext<CR>')
 vim.keymap.set('n', '<S-TAB>', '<cmd>bprevious<CR>')
+
+vim.keymap.set('n', '<leader>mn', '<cmd>e /Users/blazingbyte/.dotfiles/kickstart.nvim/init.lua<CR>', { desc = '[M]attot [N]vim config' })
