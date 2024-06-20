@@ -1,6 +1,7 @@
 -- Remove the `use` here if you're using folke/lazy.nvim.
 return {
   'Exafunction/codeium.vim',
+  version = '1.8.37',
   config = function()
     -- Change '<C-g>' here to any keycode you like.
     vim.keymap.set('i', '<C-g>', function()
