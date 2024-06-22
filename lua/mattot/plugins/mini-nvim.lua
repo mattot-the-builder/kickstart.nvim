@@ -17,7 +17,7 @@ return { -- Collection of various small independent plugins/modules
     require('mini.surround').setup()
 
     require('mini.starter').setup()
-    require('mini.notify').setup()
+    -- require('mini.notify').setup()
 
     -- Simple and easy statusline.
     --  You could remove this setup call if you don't like it,
